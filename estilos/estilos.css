@@ -377,39 +377,3 @@ img{
         display: none;
     }
 }
-
-/* --------------sector pruebas--prueba de animaciones------------- */
-.contenedor-animaciones{
-    background: rgb(6, 124, 75);
-    height: 20rem;
-    padding: 5rem;
-}
-
-.caja-animaciones{
-    background: #650072;
-    height: 5rem;
-    width: 5rem;
-    margin: 2rem;
-    position: relative;
-    animation-name: desplazarse;
-    animation-duration: 1s;
-    animation-iteration-count: 4;
-    animation-direction: alternate;
-    animation-fill-mode: forwards;
-    animation-timing-function: cubic-bezier(100,1,100,0);
-}
-
-@keyframes desplazarse {
-    0% {
-        left: 0;
-        background: #E0E0E0;
-    }
-    90% {
-        background: #0e0a0a;
-    }
-    100% {
-        left: 80%;
-        background: rgb(129, 187, 13);
-    }
-
-}

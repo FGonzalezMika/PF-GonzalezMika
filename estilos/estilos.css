@@ -290,7 +290,7 @@ img{
 }
 
 .redes img:hover{
-    background-color: #12131A;
+    background-color: rgb(0, 0, 255);
     border-radius: 0.625rem;
 }
 

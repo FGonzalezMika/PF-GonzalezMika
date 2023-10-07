@@ -28,6 +28,7 @@ img{
     flex-direction: column;
     align-items: center;
     border-bottom: 0.2rem solid rgb(0, 0, 0);
+    padding-top: 8rem;
 }
 
 .texto-preguntas{
@@ -114,7 +115,6 @@ img{
 }
 
 /* body contacto */
-
 .contacto-body{
     background-image: url("../imagenes/motopista.png");
     background-size: cover;
@@ -128,7 +128,7 @@ img{
 .contenedor-contactanos{
     display: flex;
     align-items: center;
-    padding: 10%;
+    padding: 11rem 5rem 4rem 5rem;
     color: rgb(0, 0, 0);
 }
 .titulo-redes-contactanos a{
@@ -155,10 +155,10 @@ img{
     margin-bottom: 1rem;
 }
 .color-boton{
-    color: rgb(0, 0, 0) !important;
+    color: rgb(0, 0, 0);
 }
 .color-boton:hover{
-    background: #8E89D9 !important;
+    background: #8E89D9;
 }
 
 
@@ -175,10 +175,11 @@ img{
 }
 /* imagenes galeria accesorios */
 .imagenes-galeria-accesorios{
-    margin: 100px;
+    margin: 6.25rem;
     text-align: center;
 }
 .imagenes-galeria-accesorios h1{
+    padding-top: 3rem;
     font-size: xx-large;
     -webkit-text-stroke: 0.063rem rgb(128, 128, 128);
     color: rgb(161, 11, 69);
@@ -216,6 +217,7 @@ img{
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-top: 4rem;
 }
 .cajon-sobrenosotros h1{
     color: #000000;
@@ -246,6 +248,7 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 4rem;
 }
 .titulo-ayuda{
     margin: 5% 0% 0%;
@@ -319,7 +322,7 @@ img{
     border-radius: 3rem ;
 }
 
-/* menu general bootstrap */
+/* --------menu general bootstrap-------- */
 
 /* para cambiar el fondo del navbar */
 .navbar-expand-lg{
@@ -334,11 +337,15 @@ img{
 .activo{
     color: rgb(129, 125, 125);
 }
+/* uso la clase fija para hacer fijo el menu, al subir y bajar */
+.fijo{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
 
 /* media query general */
-
 @media (max-width: 992px) {
-
     /* menu general bootstrap*/
     .navbar-brand img{
         margin-left: 5%;
@@ -377,9 +384,15 @@ img{
     }
 }
 
-/* media para titulo de pagina ayuda */
+/* media para menos de 360px */
 @media (max-width: 360px){
     .titulo-ayuda img{
         display: none;
+    }
+    .cajon-sobrenosotros{
+        padding-top: 8rem;
+    }
+    .contenedor-mapaytexto{
+        padding-top: 8.5rem;
     }
 }

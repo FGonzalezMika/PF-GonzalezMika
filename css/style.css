@@ -1,0 +1,421 @@
+/* body inicio */
+.body-inicio {
+  margin: 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* menu no responsive general */
+.navbar-brand img {
+  margin-left: 35%;
+  width: 12.5rem;
+}
+
+.container-fluid ul {
+  font-size: 1.5em;
+  margin-left: 40%;
+}
+
+/* ----- cajon de preguntas frecuentes de inicio ----- */
+.preguntas-frecuentes {
+  background-image: url("../imagenes/motocross.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 0.2rem solid #000000;
+  padding-top: 8rem;
+}
+
+.texto-preguntas {
+  padding: 7%;
+}
+
+.texto-preguntas h1 {
+  font-size: 3rem;
+  color: #000000;
+  -webkit-text-stroke: 0.2rem #0000FF;
+}
+
+.texto-preguntas b {
+  font-size: 2rem;
+  color: #000000;
+  -webkit-text-stroke: 0.02rem #808080;
+}
+
+.texto-preguntas p {
+  font-size: 1.5rem;
+  margin-left: 1.5%;
+  color: #fff;
+  -webkit-text-stroke: 0.1rem rgb(0, 0, 0);
+}
+
+.imagenes-pagos {
+  display: flex;
+  margin-top: 7%;
+  flex-wrap: wrap-reverse;
+}
+
+.imagenes-pagos img {
+  width: 5rem;
+  border-radius: 5rem;
+  margin: 0.3rem;
+}
+
+/* segundo section de segundafoto */
+.segundafoto {
+  background-image: url("../imagenes/motos.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0.1%;
+  border-bottom: 0.2rem solid rgb(0, 0, 0);
+}
+
+.segundafoto p {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 15% auto;
+  font-size: 3rem;
+  -webkit-text-stroke: 0.2rem #0000FF;
+  color: #000000;
+}
+
+/* --------cajon contenedor de 24/7 only market -------- */
+.contenedor-onlymarket {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  background-image: url("../imagenes/gafas.png");
+  background-size: cover;
+}
+
+.caja-onlymarket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedor-onlymarket h2 {
+  font-size: 3rem;
+  color: #000000;
+  -webkit-text-stroke: 0.2rem rgb(0, 0, 255);
+}
+
+.texto-onlymarket {
+  -webkit-text-stroke: 0.02rem rgb(128, 128, 128);
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  margin: 1%;
+}
+
+/* body contacto */
+.contacto-body {
+  background-image: url("../imagenes/motopista.png");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-contactanos {
+  display: flex;
+  align-items: center;
+  padding: 11rem 5rem 4rem 5rem;
+  color: rgb(0, 0, 0);
+}
+
+.titulo-redes-contactanos a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+}
+
+.titulo-redes-contactanos a:hover {
+  background: #12131A;
+  color: rgb(128, 128, 128);
+  border-radius: 5rem;
+}
+
+/* formulario contacto */
+.contenedor-formulario {
+  margin-right: 10%;
+}
+
+.email-form, .texto-form input {
+  width: 15rem;
+}
+
+.texto-form input {
+  height: 5rem;
+  margin-bottom: 1rem;
+}
+
+.color-boton {
+  color: rgb(0, 0, 0);
+}
+
+.color-boton:hover {
+  background: #8E89D9;
+}
+
+/* body galeria */
+.galeria-body {
+  background: rgb(0, 0, 0);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* imagenes galeria accesorios */
+.imagenes-galeria-accesorios {
+  margin: 6.25rem;
+  text-align: center;
+}
+
+.imagenes-galeria-accesorios h1 {
+  padding-top: 3rem;
+  font-size: xx-large;
+  -webkit-text-stroke: 0.063rem rgb(128, 128, 128);
+  color: rgb(161, 11, 69);
+}
+
+.fotos-accesorios img {
+  margin: 2%;
+  border-radius: 3rem;
+  height: 12rem;
+  width: 14rem;
+}
+
+.otrasfotos h2 {
+  font-size: xx-large;
+  color: rgb(161, 11, 69);
+  -webkit-text-stroke: 0.063rem rgb(128, 128, 128);
+}
+
+.otrasfotos img {
+  margin: 2%;
+  border-radius: 3rem;
+  height: 12rem;
+  width: 14rem;
+}
+
+/* sobre nosotros body */
+.sobrenosotros-body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("../imagenes/muchasmazas.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.cajon-sobrenosotros {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 4rem;
+}
+
+.cajon-sobrenosotros h1 {
+  color: #000000;
+  margin-top: 5%;
+  font-size: xx-large;
+  -webkit-text-stroke: 0.1rem rgb(0, 0, 255);
+  width: 70%;
+}
+
+.cajon-sobrenosotros p {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  background: rgba(36, 176, 201, 0.315);
+  width: 70%;
+}
+
+/* ayuda body */
+.ayuda-body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("../imagenes/motoduna.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contenedor-mapaytexto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+.titulo-ayuda {
+  margin: 5% 0% 0%;
+  display: flex;
+  align-items: center;
+}
+
+.titulo-ayuda h1 {
+  font-size: 2rem;
+  -webkit-text-stroke: 0.1rem rgb(0, 0, 255);
+  color: rgb(0, 0, 0);
+}
+
+.mapa {
+  margin-bottom: 0.5%;
+}
+
+.mapa iframe {
+  border-radius: 5rem;
+}
+
+.texto-ayuda {
+  background: rgba(248, 248, 248, 0.368627451);
+  margin: 5% 5% 5% 5%;
+  color: rgb(0, 0, 0);
+}
+
+/* footer o pie de pagina general */
+.cajonera {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #12131A;
+  padding: 1%;
+  margin-top: auto; /* esto lo pongo para que el footer siempre este abajo del todo*/
+}
+
+.logo-footer img {
+  width: 15rem;
+}
+
+.redes {
+  background: #FCFBE6;
+  border-radius: 1rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  margin: 1rem 0 1rem;
+}
+
+.redes img {
+  width: 2rem;
+  margin: 1rem;
+}
+
+.redes img:hover {
+  background-color: rgb(0, 0, 255);
+  border-radius: 0.625rem;
+}
+
+.copy {
+  color: #E0E0E0;
+}
+
+/* logo de whatsapp general */
+.wpp {
+  position: fixed;
+  z-index: 1;
+  right: 0.5rem;
+  bottom: 0rem;
+  margin-bottom: 5rem;
+}
+
+.wpp:hover {
+  background: #12131A;
+  border-radius: 3rem;
+}
+
+/* --------menu general bootstrap-------- */
+/* para cambiar el fondo del navbar */
+.navbar-expand-lg {
+  background: #12131A;
+}
+
+.nav-link {
+  color: #FFFFFF;
+}
+
+.nav-link:hover {
+  color: #8E89D9;
+}
+
+.activo {
+  color: rgb(129, 125, 125);
+}
+
+/* uso la clase fija para hacer fijo el menu, al subir y bajar */
+.fijo {
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+}
+
+/* media query general */
+@media (max-width: 992px) {
+  /* menu general bootstrap*/
+  .navbar-brand img {
+    margin-left: 5%;
+    width: 11.25rem;
+  }
+  /* contacto */
+  .contenedor-contactanos {
+    display: flex;
+    flex-direction: column;
+  }
+  /* logo whatsapp general */
+  .wpp {
+    bottom: 15%;
+  }
+  .wpp img {
+    height: 4rem;
+  }
+  /* footer o pie de pagina */
+  .cajonera {
+    display: grid;
+    flex-direction: column;
+    justify-items: center;
+  }
+  .logo-footer {
+    margin-top: 10%;
+  }
+  .copy {
+    display: grid;
+    justify-items: center;
+    order: 1;
+    margin-left: 5%;
+  }
+}
+/* media para menos de 360px */
+@media (max-width: 360px) {
+  .titulo-ayuda img {
+    display: none;
+  }
+  .cajon-sobrenosotros {
+    padding-top: 8rem;
+  }
+  .contenedor-mapaytexto {
+    padding-top: 8.5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

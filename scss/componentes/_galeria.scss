@@ -1,0 +1,31 @@
+/*comienzo galeria*/
+.galeria-body{
+    background: nth($colores,1 );
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    .imagenes-galeria-accesorios{
+        margin-top: 6.25rem;
+        text-align: center;
+            h1{
+                padding-top: 3rem;
+                font-size: map-get($titulos,medida-titulos-maschica );
+                -webkit-text-stroke: 0.10rem map-get($titulos,color-exterior-titulos );
+                color:  map-get($titulos,color-interior-titulos );
+            }
+        }
+        .fotos-accesorios img{
+            @extend %fotos-galeria;
+        }
+        .otrasfotos h2{
+            font-size: map-get($titulos,medida-titulos-maschica );
+            -webkit-text-stroke: 0.10rem map-get($titulos,color-exterior-titulos );
+            color:  map-get($titulos,color-interior-titulos );
+        }
+        .otrasfotos img{
+            @extend %fotos-galeria
+        }
+}
+
+/*fin galeria*/

@@ -1,0 +1,31 @@
+/*comienzo sobrenosotros*/
+.sobrenosotros-body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("../imagenes/muchasmazas.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    .cajon-sobrenosotros{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 4rem;
+        h1{
+        margin-top: 5%;
+        font-size: map-get($titulos,medida-titulos-maschica );
+        -webkit-text-stroke: 0.10rem map-get($titulos,color-exterior-titulos );
+        color:  map-get($titulos,color-interior-titulos );
+        width: 70%;
+        }
+        p{
+        color: nth($colores,1 );
+        font-size: 1.5rem;
+        background: #f8f8f85e;
+        width: 70%;
+        }
+    }
+}
+/*fin sobrenosotros*/

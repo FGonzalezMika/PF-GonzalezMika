@@ -1,0 +1,38 @@
+/* --------menu general bootstrap-------- */
+/*esto para cuando el menu es mas de 992px (solo lo de navbar-brand img,container-fluid ul y la barra del navbar-toggler*/
+.navbar-brand img{
+    margin-left: 35%;
+    width: 12.5rem;
+    @include responsive{
+        margin-left: 5%;
+        width: 11.5rem;
+    }
+}
+@include responsive{
+    .navbar-toggler{
+        width: 4.5rem; /*tamano icono barra menu*/
+    }
+}
+.container-fluid ul{
+    font-size: 1.5em;
+    margin-left: 40%;
+}
+/* para cambiar el fondo del navbar */
+.navbar-expand-lg{
+    background:$color-menu-footer-logowpp-fondo;
+}
+.nav-link{
+    color: nth($colores,4);
+}
+.nav-link:hover{
+    color: nth($colores,2 );
+}
+.activo{
+    color:nth($colores,3 );
+}
+/* uso la clase fija para hacer fijo el menu, al subir y bajar */
+.fijo{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}

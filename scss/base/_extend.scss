@@ -1,0 +1,15 @@
+/*el extend se usa para tener una variable y usar todo lo que hay dentro de ella
+para llamarlo se usa @import %nombre de la variable;*/
+
+%dispositivo-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+%fotos-galeria{
+    margin: 2%;
+    border-radius: 3rem;
+    height: 12rem;
+    width: 14rem;
+}

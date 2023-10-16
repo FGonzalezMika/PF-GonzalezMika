@@ -1,0 +1,32 @@
+/* footer o pie de pagina general */
+.cajonera{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: $color-menu-footer-logowpp-fondo;
+    padding: 1%;
+    margin-top: auto;  /* esto lo pongo para que el footer siempre este abajo del todo*/
+
+    .logo-footer img{
+        width: 15rem;
+    }
+    .copy{
+        color: nth($colores,4 );
+    }
+    .redes{
+        background: nth($colores,4 );
+        border-radius: 1rem;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        margin: 1rem 0 1rem;
+        img{
+            width: 2rem;
+            margin: 1rem;
+            &:hover{
+                background-color: nth($colores,2 );
+                border-radius: 0.625rem;
+            }
+        }
+    }
+}

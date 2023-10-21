@@ -21,9 +21,9 @@
         width: 70%;
         }
         p{
-        color: nth($colores,1 );
+        color: nth($colores,4 );
         font-size: 1.5rem;
-        background: #f8f8f85e;
+        background: $color-fondotexto-sobrenosotros;
         width: 70%;
         }
     }

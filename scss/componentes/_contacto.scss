@@ -40,6 +40,8 @@
                 background: nth($colores,1 );
                 color: nth($colores,3 );
                 border-radius: 5rem;
+                transform: scale(1.2);
+                transition-duration: 0.5s;
             }
         }
     }

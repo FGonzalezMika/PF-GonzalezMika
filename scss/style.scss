@@ -12,13 +12,29 @@
 @import '../scss/componentes/contacto';
 @import '../scss/componentes/ayuda';
 
+/* logo ir para arriba */
+.contenedor-flecha{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    .flecha-arriba{
+        display: flex;
+        justify-content: center;
+        background: nth($colores,2 );
+        border-radius: 1rem;
+        &:hover{
+            background: $color-menu-footer-logowpp-fondo;
+            border-radius: 1rem;
+        }
+    }
+}
+
 /* logo de whatsapp */
 .wpp{
     position: fixed;
     z-index: 1;
     right: 0.5rem;
-    bottom: 0rem;
-    margin-bottom: 5rem;
+    bottom: 5rem;
     &:hover{
         background: $color-menu-footer-logowpp-fondo;
         border-radius: 3rem ;

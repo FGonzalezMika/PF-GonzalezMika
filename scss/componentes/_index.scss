@@ -1,7 +1,7 @@
 /*comienzo inicio*/
 .body-inicio{
     margin: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    @extend %letra-general;
     display: flex;
     flex-direction: column;
     img{
@@ -9,14 +9,13 @@
     }
 /* ----- section de preguntas frecuentes ----- */
     .preguntas-frecuentes{
-        background-image: url("../imagenes/motocross.png");
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-image: url("../imagenes/motocross.avif");
+        @extend %centrador-imagenesdefondo-fijo;
         display: flex;
         flex-direction: column;
         align-items: center;
         border-bottom: 0.2rem solid nth($colores,1);
-        padding-top: 8rem;
+        padding-top: 5rem;
         .texto-preguntas{
             padding: 7%;
             h1{
@@ -27,7 +26,7 @@
             b{
                 font-size: 2rem;
                 color: nth($colores,1 );
-                -webkit-text-stroke: 0.02rem nth($colores,3 );
+                -webkit-text-stroke: 0.02rem nth($colores,4 );
             }
             p{
                 font-size: 1.5rem;
@@ -49,10 +48,8 @@
     }
 /* section de segundafoto */
     .segundafoto{
-        background-image: url("../imagenes/motos.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-image: url("../imagenes/motos.avif");
+        @extend %centrador-imagenesdefondo-nofijo;
         padding: 0.1%;
         border-bottom: 0.2rem solid nth($colores,1);
         p{
@@ -69,8 +66,8 @@
     .contenedor-onlymarket{
         @extend %dispositivo-flex;
         padding: 5%;
-        background-image: url("../imagenes/gafas.png");
-        background-size: cover;
+        background-image: url("../imagenes/gafas.avif");
+        @extend %centrador-imagenesdefondo-fijo;
         h2{
             font-size: map-get($titulos,medida-titulos );
             -webkit-text-stroke: 0.10rem map-get($titulos,color-exterior-titulos );

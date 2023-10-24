@@ -1,7 +1,7 @@
 /*comienzo galeria*/
 .galeria-body{
     background: nth($colores,1 );
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    @extend %letra-general;
     display: flex;
     flex-direction: column;
     min-height: 100vh;

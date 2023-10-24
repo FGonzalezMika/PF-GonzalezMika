@@ -1,13 +1,11 @@
 /* comienzo ayuda */
 .ayuda-body{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    @extend %letra-general;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url("../imagenes/motoduna.png");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-image: url("../imagenes/motoduna.avif");
+    @extend %centrador-imagenesdefondo-fijo;
     .contenedor-mapaytexto{
         display: flex;
         flex-direction: column;

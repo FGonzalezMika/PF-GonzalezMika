@@ -1,10 +1,8 @@
 /* comienzo contacto */
 .contacto-body{
-    background-image: url("../imagenes/motopista.png");
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url("../imagenes/motopista.avif");
+    @extend %centrador-imagenesdefondo-fijo;
+    @extend %letra-general;
     height: 100vh;
     display: flex;
     flex-direction: column;

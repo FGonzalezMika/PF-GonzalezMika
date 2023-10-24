@@ -1,5 +1,9 @@
 /*el extend se usa para tener una variable y usar todo lo que hay dentro de ella
-para llamarlo se usa @import %nombre de la variable;*/
+para llamarlo se usa @extend %nombre de la variable;*/
+
+%letra-general{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
 %dispositivo-flex{
     display: flex;
@@ -13,3 +17,16 @@ para llamarlo se usa @import %nombre de la variable;*/
     height: 12rem;
     width: 14rem;
 }
+
+%centrador-imagenesdefondo-fijo{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+%centrador-imagenesdefondo-nofijo{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

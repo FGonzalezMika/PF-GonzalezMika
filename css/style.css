@@ -2,7 +2,11 @@
 /*en maps puedo tener valores mezclados en una variable, en cambio
 que en listas solo tengo que tener de medidas o colores, etc*/
 /*el extend se usa para tener una variable y usar todo lo que hay dentro de ella
-para llamarlo se usa @import %nombre de la variable;*/
+para llamarlo se usa @extend %nombre de la variable;*/
+.ayuda-body, .contacto-body, .sobrenosotros-body, .galeria-body, .body-inicio {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
 .body-inicio .contenedor-onlymarket {
   display: flex;
   align-items: center;
@@ -14,6 +18,19 @@ para llamarlo se usa @import %nombre de la variable;*/
   border-radius: 3rem;
   height: 12rem;
   width: 14rem;
+}
+
+.ayuda-body, .contacto-body, .sobrenosotros-body, .body-inicio .contenedor-onlymarket, .body-inicio .preguntas-frecuentes {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.body-inicio .segundafoto {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* media query */
@@ -148,7 +165,6 @@ para llamarlo se usa @import %nombre de la variable;*/
 /*comienzo inicio*/
 .body-inicio {
   margin: 0;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   display: flex;
   flex-direction: column;
   /* ----- section de preguntas frecuentes ----- */
@@ -161,14 +177,12 @@ para llamarlo se usa @import %nombre de la variable;*/
 }
 
 .body-inicio .preguntas-frecuentes {
-  background-image: url("../imagenes/motocross.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("../imagenes/motocross.avif");
   display: flex;
   flex-direction: column;
   align-items: center;
   border-bottom: 0.2rem solid #000000;
-  padding-top: 8rem;
+  padding-top: 5rem;
 }
 
 .body-inicio .preguntas-frecuentes .texto-preguntas {
@@ -184,7 +198,7 @@ para llamarlo se usa @import %nombre de la variable;*/
 .body-inicio .preguntas-frecuentes .texto-preguntas b {
   font-size: 2rem;
   color: #000000;
-  -webkit-text-stroke: 0.02rem #808080;
+  -webkit-text-stroke: 0.02rem #fff;
 }
 
 .body-inicio .preguntas-frecuentes .texto-preguntas p {
@@ -207,10 +221,7 @@ para llamarlo se usa @import %nombre de la variable;*/
 }
 
 .body-inicio .segundafoto {
-  background-image: url("../imagenes/motos.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("../imagenes/motos.avif");
   padding: 0.1%;
   border-bottom: 0.2rem solid #000000;
 }
@@ -227,8 +238,7 @@ para llamarlo se usa @import %nombre de la variable;*/
 
 .body-inicio .contenedor-onlymarket {
   padding: 5%;
-  background-image: url("../imagenes/gafas.png");
-  background-size: cover;
+  background-image: url("../imagenes/gafas.avif");
 }
 
 .body-inicio .contenedor-onlymarket h2 {
@@ -256,7 +266,6 @@ para llamarlo se usa @import %nombre de la variable;*/
 /*comienzo galeria*/
 .galeria-body {
   background: #000000;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -283,14 +292,10 @@ para llamarlo se usa @import %nombre de la variable;*/
 /*fin galeria*/
 /*comienzo sobrenosotros*/
 .sobrenosotros-body {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image: url("../imagenes/muchasmazas.png");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-image: url("../imagenes/muchasmazas.avif");
 }
 
 .sobrenosotros-body .cajon-sobrenosotros {
@@ -318,11 +323,7 @@ para llamarlo se usa @import %nombre de la variable;*/
 /*fin sobrenosotros*/
 /* comienzo contacto */
 .contacto-body {
-  background-image: url("../imagenes/motopista.png");
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-image: url("../imagenes/motopista.avif");
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -376,14 +377,10 @@ para llamarlo se usa @import %nombre de la variable;*/
 /* fin contacto */
 /* comienzo ayuda */
 .ayuda-body {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image: url("../imagenes/motoduna.png");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+  background-image: url("../imagenes/motoduna.avif");
 }
 
 .ayuda-body .contenedor-mapaytexto {

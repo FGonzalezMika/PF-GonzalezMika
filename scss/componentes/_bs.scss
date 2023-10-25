@@ -3,14 +3,18 @@
 .navbar-brand img{
     margin-left: 35%;
     width: 12.5rem;
+    max-height: 5rem;
     @include responsive{
         margin-left: 5%;
         width: 11.5rem;
+        max-height: 5rem;
     }
 }
 @include responsive{
     .navbar-toggler{
-        width: 4.5rem; /*tamano icono barra menu*/
+        max-width: 4.5rem; /*tamano icono barra menu*/
+        max-height: 3rem;
+
     }
 }
 .container-fluid ul{

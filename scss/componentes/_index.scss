@@ -10,6 +10,8 @@
 /* ----- section de preguntas frecuentes ----- */
     .preguntas-frecuentes{
         background-image: url("../imagenes/motocross.avif");
+        max-width: 100%;
+        max-height: 100%;
         @extend %centrador-imagenesdefondo-fijo;
         display: flex;
         flex-direction: column;
@@ -24,7 +26,7 @@
             color:  map-get($titulos,color-interior-titulos );
             }
             b{
-                font-size: 2rem;
+                font-size: $tamano-texto-subtitulos;
                 color: nth($colores,1 );
                 -webkit-text-stroke: 0.02rem nth($colores,4 );
             }
@@ -39,7 +41,8 @@
                 margin-top: 7%;
                 flex-wrap: wrap-reverse;
                 img{
-                    width: 5rem;
+                    max-width: 5rem;
+                    max-height: 3rem;
                     border-radius: 5rem;
                     margin: 0.3rem;
                 }
@@ -49,6 +52,8 @@
 /* section de segundafoto */
     .segundafoto{
         background-image: url("../imagenes/motos.avif");
+        max-width: 100%;
+        max-height: 100%;
         @extend %centrador-imagenesdefondo-nofijo;
         padding: 0.1%;
         border-bottom: 0.2rem solid nth($colores,1);
@@ -67,25 +72,31 @@
         @extend %dispositivo-flex;
         padding: 5%;
         background-image: url("../imagenes/gafas.avif");
+        max-width: 100%;
+        max-height: 100%;
         @extend %centrador-imagenesdefondo-fijo;
-        h2{
-            font-size: map-get($titulos,medida-titulos );
-            -webkit-text-stroke: 0.10rem map-get($titulos,color-exterior-titulos );
-            color:  map-get($titulos,color-interior-titulos );
+        .caja-onlymarket{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h2{
+                font-size: map-get($titulos,medida-titulos );
+                -webkit-text-stroke: 0.10rem map-get($titulos,color-exterior-titulos );
+                color:  map-get($titulos,color-interior-titulos );
+            }
+            img{
+                max-width: 5rem;
+                max-height: 5rem;
+            }
+            .texto-onlymarket{
+                color: nth($colores,1 );
+                -webkit-text-stroke: 0.02rem nth($colores,4 );
+                display: flex;
+                flex-direction: column;
+                font-size: $tamano-texto-subtitulos;
+                margin: 1%;
+            }
         }
-    }
-    .caja-onlymarket{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .texto-onlymarket{
-        color: nth($colores,1 );
-        -webkit-text-stroke: 0.02rem nth($colores,3 );
-        display: flex;
-        flex-direction: column;
-        font-size: 2rem;
-        margin: 1%;
     }
 }
 /*fin inicio*/

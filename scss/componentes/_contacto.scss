@@ -1,6 +1,8 @@
 /* comienzo contacto */
 .contacto-body{
     background-image: url("../imagenes/motopista.avif");
+    max-width: 100%;
+    max-height: 100%;
     @extend %centrador-imagenesdefondo-fijo;
     @extend %letra-general;
     height: 100vh;

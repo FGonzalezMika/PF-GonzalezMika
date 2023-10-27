@@ -343,8 +343,8 @@ para llamarlo se usa @extend %nombre de la variable;*/
 .contacto-body .contenedor-contactanos .contenedor-formulario .texto-form {
   margin-bottom: 1rem;
 }
-.contacto-body .contenedor-contactanos .contenedor-formulario .altura-texto {
-  height: 8rem;
+.contacto-body .contenedor-contactanos .contenedor-formulario .texto-bordes {
+  border-radius: 0.5rem;
 }
 .contacto-body .contenedor-contactanos .contenedor-formulario .color-boton {
   color: #000000;

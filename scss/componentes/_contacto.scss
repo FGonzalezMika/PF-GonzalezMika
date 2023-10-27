@@ -10,18 +10,21 @@
     flex-direction: column;
     .contenedor-contactanos{
         display: flex;
+        justify-content: center;
         align-items: center;
-        padding: 11rem 5rem 4rem 5rem;
+        margin-top: 10rem;
         color: nth($colores,1 );
 /* formulario contacto bootstrap */
         .contenedor-formulario{
-            margin-right: 10%;
+            margin-right: 9%;
             .email-form, .texto-form{
-                width: 15rem;
+                width: 14rem;
             }
             .texto-form{
-                height: 5rem;
                 margin-bottom: 1rem;
+            }
+            .altura-texto{
+                height: 8rem;
             }
             .color-boton{
                 color: nth($colores,1 );
@@ -31,19 +34,24 @@
             }
         }
 /*contactanos*/
-        .titulo-redes-contactanos a{
-            text-decoration: none;
-            color: nth($colores,1 );
-            display: flex;
-            align-items: center;
-            &:hover{
-                background: nth($colores,1 );
-                color: nth($colores,3 );
-                border-radius: 5rem;
-                transform: scale(1.2);
-                transition-duration: 0.5s;
+        .titulo-redes-contactanos{
+            h1{
+                -webkit-text-stroke: 0.1rem nth($colores,2 );
+            }
+            a{
+                text-decoration: none;
+                color: nth($colores,1 );
+                display: flex;
+                align-items: center;
+                &:hover{
+                    background: nth($colores,1 );
+                    color: nth($colores,3 );
+                    border-radius: 5rem;
+                    transform: scale(1.2);
+                    transition-duration: 0.5s;
+                }
             }
         }
     }
-}
+}   
 /* fin contacto */

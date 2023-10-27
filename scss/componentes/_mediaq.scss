@@ -3,6 +3,9 @@
     .contenedor-contactanos{
         display: flex;
         flex-direction: column;
+        .titulo-redes-contactanos{
+            margin-top: 1rem;
+        }
     }
 
     /* logo whatsapp */

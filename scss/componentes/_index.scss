@@ -22,7 +22,7 @@
             padding: 7%;
             h1{
             font-size: map-get($titulos,medida-titulos );
-            -webkit-text-stroke: 0.10rem map-get($titulos,color-exterior-titulos );
+            -webkit-text-stroke: 0.1rem map-get($titulos,color-exterior-titulos );
             color:  map-get($titulos,color-interior-titulos );
             }
             b{
@@ -63,7 +63,7 @@
         justify-content: center;
         margin: 15% auto;
         font-size: map-get($titulos,medida-titulos );
-        -webkit-text-stroke: 0.10rem map-get($titulos,color-exterior-titulos );
+        -webkit-text-stroke: 0.1rem map-get($titulos,color-exterior-titulos );
         color:  map-get($titulos,color-interior-titulos );
         }
     }
@@ -81,7 +81,7 @@
             align-items: center;
             h2{
                 font-size: map-get($titulos,medida-titulos );
-                -webkit-text-stroke: 0.10rem map-get($titulos,color-exterior-titulos );
+                -webkit-text-stroke: 0.1rem map-get($titulos,color-exterior-titulos );
                 color:  map-get($titulos,color-interior-titulos );
             }
             img{

@@ -357,6 +357,9 @@ para llamarlo se usa @extend %nombre de la variable;*/
 }
 .contacto-body .contenedor-contactanos .titulo-redes-contactanos a {
   text-decoration: none;
+  background: #808080;
+  border-radius: 3rem;
+  margin: 0.5rem;
   color: #000000;
   display: flex;
   align-items: center;
@@ -364,7 +367,7 @@ para llamarlo se usa @extend %nombre de la variable;*/
 .contacto-body .contenedor-contactanos .titulo-redes-contactanos a:hover {
   background: #000000;
   color: #808080;
-  border-radius: 5rem;
+  border-radius: 3rem;
   transform: scale(1.2);
   transition-duration: 0.5s;
 }

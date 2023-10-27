@@ -40,13 +40,16 @@
             }
             a{
                 text-decoration: none;
+                background: nth($colores,3 );
+                border-radius: 3rem;
+                margin: 0.5rem;
                 color: nth($colores,1 );
                 display: flex;
                 align-items: center;
                 &:hover{
                     background: nth($colores,1 );
                     color: nth($colores,3 );
-                    border-radius: 5rem;
+                    border-radius: 3rem;
                     transform: scale(1.2);
                     transition-duration: 0.5s;
                 }

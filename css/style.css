@@ -327,7 +327,7 @@ para llamarlo se usa @extend %nombre de la variable;*/
 .sobrenosotros-body .cajon-sobrenosotros p {
   color: #fff;
   font-size: 1.5rem;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background: rgba(0, 0, 255, 0.4235294118);
   width: 70%;
   padding: 1rem;

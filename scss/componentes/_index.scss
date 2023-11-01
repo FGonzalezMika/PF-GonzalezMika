@@ -27,8 +27,10 @@
             }
             b{
                 font-size: $tamano-texto-subtitulos;
-                color: nth($colores,1 );
-                -webkit-text-stroke: 0.02rem nth($colores,4 );
+                color: nth($colores,4 );
+                -webkit-text-stroke: 0.04rem nth($colores,1 );
+                background: rgba(0, 0, 0, 0.568);
+                border-radius: 0.5rem;
             }
             p{
                 font-size: 1.5rem;

@@ -7,6 +7,10 @@
             margin-top: 1rem;
         }
     }
+    /*ayuda mapa*/
+    .descktop{
+        display: none;
+    }
 
     /* logo whatsapp */
     .wpp{
@@ -34,13 +38,23 @@
     }
 }
 @include menos-de-tres-sesenta{
-    .titulo-ayuda img{
-        display: none;
+    .titulo-ayuda{
+        padding-top: 20%;
+        img{
+            display: none;
+        }
     }
     .cajon-sobrenosotros{
         padding-top: 8rem;
     }
     .contenedor-mapaytexto{
         padding-top: 8.5rem;
+    }
+}
+
+@include pc{
+    /*para el mapa de la pagina ayuda*/
+    .mobile{
+        display: none;
     }
 }

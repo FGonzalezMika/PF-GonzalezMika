@@ -44,6 +44,10 @@ para llamarlo se usa @extend %nombre de la variable;*/
   .contenedor-contactanos .titulo-redes-contactanos {
     margin-top: 1rem;
   }
+  /*ayuda mapa*/
+  .descktop {
+    display: none;
+  }
   /* logo whatsapp */
   .wpp {
     margin-bottom: 8rem;
@@ -69,7 +73,10 @@ para llamarlo se usa @extend %nombre de la variable;*/
   }
   /*esto es para el contenido que escribimos dentro del mixin*/
 }
-@media (max-width: 360px) {
+@media (max-width: 380px) {
+  .titulo-ayuda {
+    padding-top: 20%;
+  }
   .titulo-ayuda img {
     display: none;
   }
@@ -78,6 +85,12 @@ para llamarlo se usa @extend %nombre de la variable;*/
   }
   .contenedor-mapaytexto {
     padding-top: 8.5rem;
+  }
+}
+@media (min-width: 993px) {
+  /*para el mapa de la pagina ayuda*/
+  .mobile {
+    display: none;
   }
 }
 /* --------menu general bootstrap-------- */
@@ -197,8 +210,10 @@ para llamarlo se usa @extend %nombre de la variable;*/
 }
 .body-inicio .preguntas-frecuentes .texto-preguntas b {
   font-size: 2rem;
-  color: #000000;
-  -webkit-text-stroke: 0.02rem #fff;
+  color: #fff;
+  -webkit-text-stroke: 0.04rem #000000;
+  background: rgba(0, 0, 0, 0.568);
+  border-radius: 0.5rem;
 }
 .body-inicio .preguntas-frecuentes .texto-preguntas p {
   font-size: 1.5rem;
@@ -275,12 +290,13 @@ para llamarlo se usa @extend %nombre de la variable;*/
   text-align: center;
 }
 .galeria-body .imagenes-galeria-accesorios h1 {
-  padding-top: 3rem;
+  padding: 1.5rem;
   font-size: 2rem;
   -webkit-text-stroke: 0.1rem #0000FF;
   color: #000000;
 }
 .galeria-body .otrasfotos h2 {
+  padding: 1.5rem;
   font-size: 2rem;
   -webkit-text-stroke: 0.1rem #0000FF;
   color: #000000;
@@ -311,8 +327,11 @@ para llamarlo se usa @extend %nombre de la variable;*/
 .sobrenosotros-body .cajon-sobrenosotros p {
   color: #fff;
   font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   background: rgba(0, 0, 255, 0.4235294118);
   width: 70%;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 /*fin sobrenosotros*/
@@ -392,20 +411,24 @@ para llamarlo se usa @extend %nombre de la variable;*/
   /*texto de ayuda al usuario*/
 }
 .ayuda-body .contenedor-mapaytexto .titulo-ayuda {
-  margin: 5% 0% 0%;
+  margin-top: 5%;
   display: flex;
   align-items: center;
 }
 .ayuda-body .contenedor-mapaytexto .titulo-ayuda h1 {
+  margin: 0 0.5rem 0 0.5rem;
   font-size: 2rem;
   -webkit-text-stroke: 0.1rem #0000FF;
   color: #000000;
 }
 .ayuda-body .contenedor-mapaytexto .mapa {
-  margin-bottom: 0.5%;
+  margin: 0 5% 0.5% 5%;
+}
+.ayuda-body .contenedor-mapaytexto .mapa .descktop {
+  width: 40rem;
 }
 .ayuda-body .contenedor-mapaytexto .mapa iframe {
-  border-radius: 5rem;
+  border-radius: 3rem;
 }
 .ayuda-body .contenedor-mapaytexto .texto-ayuda {
   background: rgba(248, 248, 248, 0.368627451);

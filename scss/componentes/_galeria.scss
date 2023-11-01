@@ -9,7 +9,7 @@
         margin-top: 6.25rem;
         text-align: center;
             h1{
-                padding-top: 3rem;
+                padding: 1.5rem;
                 font-size: map-get($titulos,medida-titulos-maschica );
                 -webkit-text-stroke: 0.10rem map-get($titulos,color-exterior-titulos );
                 color:  map-get($titulos,color-interior-titulos );
@@ -19,6 +19,7 @@
             @extend %fotos-galeria;
         }
         .otrasfotos h2{
+            padding: 1.5rem;
             font-size: map-get($titulos,medida-titulos-maschica );
             -webkit-text-stroke: 0.10rem map-get($titulos,color-exterior-titulos );
             color:  map-get($titulos,color-interior-titulos );

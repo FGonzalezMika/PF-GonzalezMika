@@ -23,8 +23,11 @@
         p{
         color: nth($colores,4 );
         font-size: 1.5rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         background: $color-fondotexto-sobrenosotros;
         width: 70%;
+        padding: 1rem;
+        border-radius: 1rem;
         }
     }
 }

@@ -15,10 +15,11 @@
         padding-top: 4rem;
 /* titulo de aca nos encontramos */
         .titulo-ayuda{
-            margin: 5% 0% 0%;
+            margin-top: 5%;
             display: flex;
             align-items: center;
             h1{
+                margin: 0 0.5rem 0 0.5rem;
                 font-size: map-get($titulos,medida-titulos-maschica );
                 -webkit-text-stroke: 0.10rem map-get($titulos,color-exterior-titulos );
                 color:  map-get($titulos,color-interior-titulos );
@@ -26,9 +27,12 @@
         }
 /*------mapa------*/
         .mapa{
-            margin-bottom: 0.5%;
+            margin: 0 5% 0.5% 5%;
+            .descktop{
+                width: 40rem;
+            }
             iframe{
-                border-radius: 5rem;
+                border-radius: 3rem;
             }
         }
 /*texto de ayuda al usuario*/

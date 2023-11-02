@@ -8,6 +8,7 @@
     .imagenes-galeria-accesorios{
         margin-top: 6.25rem;
         text-align: center;
+        margin-bottom: $margen-general-cadapagina-abajodeltodo;
             h1{
                 padding: 1.5rem;
                 font-size: map-get($titulos,medida-titulos-maschica );

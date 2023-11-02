@@ -16,7 +16,10 @@
 .contenedor-flecha{
     display: flex;
     justify-content: center;
-    margin-bottom: 0.5rem;
+    margin-top: $margen-arriba-flecha;
+    .mas-margen-galeriaynosotros{
+        margin-bottom: 4.5rem;
+    }
     .flecha-arriba{
         display: flex;
         justify-content: center;

@@ -13,34 +13,28 @@
         justify-content: center;
         align-items: center;
         margin-top: 10rem;
+        margin-bottom: $margen-general-cadapagina-abajodeltodo;
         color: nth($colores,1 );
-/* formulario contacto bootstrap */
-        .contenedor-formulario{
-            margin-right: 9%;
-            .email-form, .texto-form{
-                width: 14rem;
-            }
-            .texto-form{
-                margin-bottom: 1rem;
-            }
-            .texto-bordes{
-                border-radius: 0.5rem ;
-            }
-            .color-boton{
-                color: nth($colores,1 );
-                &:hover{
-                    background: nth($colores,2 );
-                }
-            }
+        /*formulario*/
+        .col{
+            width: 15rem;
+        }
+        .mensaje{
+            height: 10rem;
+        }
+        .margen-boton{
+            margin-top: 0.5rem;
         }
 /*contactanos*/
         .titulo-redes-contactanos{
+            margin-left: 2rem;
             h1{
                 -webkit-text-stroke: 0.1rem nth($colores,2 );
             }
             a{
                 text-decoration: none;
-                background: nth($colores,3 );
+                background: $color-contactanos-fondo-redes;
+                min-width: 11rem;
                 border-radius: 3rem;
                 margin: 0.5rem;
                 color: nth($colores,1 );

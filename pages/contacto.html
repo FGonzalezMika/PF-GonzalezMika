@@ -49,18 +49,24 @@
     <!-- comienzo del main -->
     <main>
       <section class="contenedor-contactanos">
-        <form class="contenedor-formulario">
-          <div class="email-form">
-            <label for="emailInput" class="form-label">Email</label>
-            <input type="email" class="form-control" placeholder="Escribe tu email.">
+        <form class="contenedor-formulario" target="_blank" action="https://formsubmit.co/eec019570d0d45f9571e594b0eaa4899" method="POST">
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col">
+                <label for="text">Nombre y Apellido:</label>
+                <input type="text" name="name" class="form-control" placeholder="Nombre y Apellido" required>
+              </div>
+              <div class="col">
+                <label for="Email">Email:</label>
+                <input type="email" name="email" class="form-control" placeholder="Email" required>
+              </div>
+            </div>
           </div>
-          <div class="texto-form">
-            <label for="inputtext" class="form-label">Mensaje</label>
-            <textarea name="text" class="texto-bordes" cols="33" rows="5" placeholder="Escribe tu duda."></textarea>
+          <div class="col">
+            <label for="textarea">Mensaje:</label>
+            <textarea placeholder="Escribe tu duda" class="form-control mensaje" name="message" rows="10" required></textarea>
           </div>
-          <div class="boton-form">
-            <input type="submit" class="btn btn-primary color-boton">
-          </div>
+          <button type="submit" class="btn btn-lg btn-dark btn-block margen-boton">Enviar</button>
         </form>
         <div class="titulo-redes-contactanos">
           <h1>Contactanos:</h1>
